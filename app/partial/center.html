@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="post">
+        POSTS
+    </div>
+
+
+<div ng-controller="centercontroller as vm_c">
+
+    <div ng-repeat="user in vm_c.users">
+        <div class="multipleposts">
+                <img src="https://www.atomix.com.au/media/2015/06/atomix_user31.png" alt="user image" />
+            <div class="userinfo">
+                <span class="name">{{user.name}}</span>
+                <span class="position">Full Stack Developer</span>
+                <span class="email">{{user.email}}</span>
+            </div>
+            <a ui-sref="profile({id:user.id})">View Profile</a>
+        </div>
+    </div>
+
+</div>
+</div>

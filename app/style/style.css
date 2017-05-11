@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+
+}
+
+.leftView {
+    width:20%;
+    float: left;
+    background-color: aqua;
+    height:100%;
+}
+
+.centerView {
+    width: 55%;
+    float: left;
+}
+
+.rightView {
+    width: 25%;
+    float: left;
+    background-color: brown;
+}
+
+.headertitle {
+    height: 50px;
+    background-color: black;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.navigation {
+    margin: 0;
+    float: left;
+    width:100%;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+.navigation ul li {
+    width:100%;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.post {
+    text-align: center;
+    font-size: 33px;
+}
+
+.multipleposts {
+    border:1px solid lightgrey;
+    width: 80%;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.multipleposts img {
+    width: 100px;
+    height:100px;
+    margin: 10px;
+    float: left;
+}
+
+.userinfo {
+    float: left;
+    margin-top: 26px;
+}
+
+.userinfo span {
+    display: block;
+    text-transform: uppercase;
+
+}
+
+input[type="submit"]{
+    float: right;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.multipleposts a {
+    float: right;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+.name {
+    font-size: 22px;
+}
+
+.email {
+    font-size: 20px;
+}
+
+.position {
+    font-size: 16px;
+}
+
+
+.containeruser {
+    width: 50%;
+    overflow: hidden;
+}
+
+.containeruser .image {
+    float: left;
+}
+
+.userDetails {
+    float: left;
+}
+
+.userDetails span {
+    display: block;
+}

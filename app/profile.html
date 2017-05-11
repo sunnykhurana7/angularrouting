@@ -1,0 +1,16 @@
+<div ng-controller="profileController as vp">
+    <!--{{vp.id}}-->
+    <!--{{vp.users[vp.id]}}-->
+
+    <div class="containeruser">
+        <div class="image">
+            <img src={{vp.users[vp.id-1].image}} alt="no image">
+        </div>
+        <div class="userDetails">
+            <span class="name">{{vp.users[vp.id-1].name}}</span>
+            <span class="email">{{vp.users[vp.id-1].email}}</span>
+            <span class="competency">{{vp.users[vp.id-1].competency}}</span>
+        </div>
+    </div>
+
+</div>
